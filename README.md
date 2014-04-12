@@ -1,15 +1,15 @@
 backbone-11-04
 ==============
-Description : 
+<strong>Description : </strong>
 Trying to add the models, clicking the "agregar" button.
 
-Testing:
+<strong>Testing:</strong>
+<ul>
+<li>Show the console and type the following <br />
+<div><em>var vista1 = new VistaApp()</em></div></li>
+<br/>
 
-Show the console and type the following <br/>
-///////
-var vista1 = new VistaApp()
-///////////
-Next use the inputs and click "agregar" button.
+<li>Next use the inputs and click "agregar" button.</li>
 
 
 
