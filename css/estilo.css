@@ -1,0 +1,35 @@
+input {
+	vertical-align: middle;
+}
+
+label {
+	vertical-align: left;
+}
+
+p {
+	display : inline-block;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+}
+
+
+#iden {
+	width : 5%;
+	margin-top: 0px;
+}
+
+#title {
+	width : 40%;
+}
+
+#name {
+	width : 35%;
+}
+
+
+#container {
+	background: red ;
+	width : 50%;
+	margin : 0 auto;
+}

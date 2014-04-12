@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Documento</title>
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+	<label for="titulo">Titulo</label>
+	<input type="text" id="titulo"/>
+	<br>
+	<label for="nombre">Nombre</label>
+	<input type="text" id="nombre"/>
+	<br>
+	<button>Agregar</button>
+	<section id="cont">
+		
+	</section>
+
+
+	
+
+	<script type="text/template" id="modelo" >
+		<section id="container">
+			<p id="iden">1</p>
+			<p id="title"><%=title %></p>
+			<p id="name"><%=name %></p>
+		</section>
+	</script>
+	<script src="lib/jquery.js"></script>
+	<script src="lib/underscore.js"></script>
+	<script src="lib/backbone.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
