@@ -28,14 +28,14 @@ var VistaApp = Backbone.View.extend({
 	addOne : function(modelo){
 		//col.add(modelo, this.newAttributes());
 		//col.create( this.newAttributes() );
-		console.log(modelo.toJSON());
 		modelo = new Modelo( this.newAttributes() );
+		console.log(modelo.toJSON());
 		col.add(modelo);
 		var view = new VistaModelo({ model : modelo });
 		
 		//col.add(this.model);
 		//debugger;
-		$("#cont").append( view.render().el );
+		$("#cont").prepend( view.render().el );
 		//debugger;
 	},
 	newAttributes : function(){
